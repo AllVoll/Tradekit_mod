@@ -1,0 +1,26 @@
+{% extends "layout1.html" %}
+
+{% block content %}
+
+<h1>API MANAGER</h1>
+
+ <form>
+    <div class="form-group">
+       <label for="api-name">API Key Name:</label>
+       <input type="text" class="form-control" id="api-name" name="api-name" placeholder="Enter API key name">
+    </div>         
+    <div>
+      <label for="api-key">API Key:</label>
+      <input type="text" id="api-key" name="api-key">
+    </div>
+    <div>
+      <label for="secret-key">Secret Key:</label>
+      <input type="text" id="secret-key" name="secret-key">
+    </div>
+    <button type="submit">Save</button>
+  </form>
+
+
+
+
+{% endblock %}
